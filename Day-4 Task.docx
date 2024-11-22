@@ -1,0 +1,333 @@
+String Methods
+1.	What will console.log("Hello World".replace("World", "Universe")); output?
+
+a)	"Hello World"
+
+`````b)	"Hello Universe"`````
+
+c)	"Hello"
+
+d)	"World Universe"
+2.	What will console.log("foo bar baz".replaceAll("bar", "baz")); output?
+
+a)	"foo bar baz"
+
+`````b)	"foo baz baz"`````
+
+c)	"foo bar bar"
+
+d)	"baz bar baz"
+3.	What will console.log("Hello".charAt(4)); return?
+
+a)	"H"
+
+`````b)	"o"`````
+
+c)	"e"
+
+d)	"l"
+4.	What will console.log("Hello World".charAt(-1)); return?
+
+a)	"d"
+
+````b)	""````
+
+c)	"o"
+
+d)	"H"
+5.	What will console.log("Hello".at(-1)); return?
+
+a)	"H"
+
+````b)	"o"````
+
+c)	"e"
+
+d)	"l"
+6.	What will console.log("Hello World".length); return?
+
+```a)	11```
+
+b)	10
+
+c)	12
+
+d)	9
+7.	What will console.log("JavaScript".slice(4, 10)); output?
+
+a)	"Java"
+
+````b)	"Script"````
+
+c)	"Scrip"
+
+d)	"Javas"
+8.	What will console.log("JavaScript".slice(-6)); output?
+
+``````a)	"Script"``````
+
+b)	"Java"
+
+c)	"avaSc"
+
+d)	"Sc"
+9.	What will console.log("JavaScript".substring(4, 10)); output?
+
+a)	"Java"
+
+`````b)	"Script"`````
+
+c)	"Scrip"
+
+d)	"JavaScript"
+10.	What will console.log("Hello".substring(-2)); output?
+````a)	"Hello"````
+
+b)	""
+
+c)	"He"
+
+d)	"o"
+11.	What will console.log("Hello".charCodeAt(1)); output?
+a)	72
+
+````b)	101````
+
+c)	111
+
+d)	108
+12.	What will console.log("Hello".toUpperCase()); output?
+`````a)	"HELLO"`````
+
+b)	"hello"
+
+c)	"Hello"
+
+d)	"H E L L O"
+13.	What will console.log("Hello World".split(" ")); output?
+a)	["Hello World"]
+
+`````b)	["Hello", "World"]`````
+
+c)	["H", "e", "l", "l", "o"]
+
+d)	"Hello World"
+14.	What will console.log("a,b,c".split(",")); output?
+a)	["a b c"]
+
+````b)	["a", "b", "c"]````
+
+c)	["a,b,c"]
+
+d)	["abc"]
+15.	What will console.log("abcabcabc".split("a", 2)); output?
+a)	["a", "bc"]
+
+""""b)	["", "bc"]""""
+
+`````c)	["", "bc", "bc"]`````
+
+d)	["bc", "bc"]
+16.	What will console.log("JavaScript is fun".indexOf("is")); return?
+a)	10
+
+``````b)	11``````
+
+c)	9
+
+d)	12
+17.	What will console.log("JavaScript".slice(-4, -1)); output?
+a)	"rpt"
+
+``````b)	"rip"``````
+
+c)	"rpt"
+
+d)	"pt"
+18.	What will console.log("123456789".substr(3, 4)); output?
+`````a)	"4567"`````
+
+b)	"3456"
+
+c)	"5678"
+
+d)	"34567"
+19.	What will console.log("JavaScript".startsWith("Java")); return?
+``````a)	true``````
+
+b)	false
+
+c)	"Java"
+
+d)	undefined
+20.	What will console.log("JavaScript".endsWith("Script")); return?
+`````a)	true`````
+
+b)	false
+
+c)	"Script"
+
+d)	undefined
+21.	What will console.log("  Hello ".trim()); output?
+```````a)	"Hello"```````
+
+b)	"  Hello "
+
+c)	""
+
+d)	"  "
+22.	What will console.log("abcDEF".toLowerCase()); output?
+```````a)	"abcdef"```````
+
+b)	"ABCDEF"
+
+c)	"Abcdef"
+
+d)	"abc DEF"
+23.	What will console.log("Hello".concat(" ", "World")); output?
+```````a)	"Hello World"```````
+
+b)	"Hello"
+
+c)	"World Hello"
+
+d)	" HelloWorld "
+24.	What will console.log("Hello"[0]); output?
+""""a)	"H"""""
+
+b)	"e"
+
+``````c)	""``````
+
+d)	"o"
+25.	What will console.log("Hello".charAt(10)); return?
+``````a)	""``````
+
+b)	"o"
+
+c)	"H"
+
+d)	undefined
+26.	What will console.log("Hello World".includes("World")); return?
+``````a)	true``````
+
+b)	false
+
+c)	undefined
+
+d)	null
+27.	What will console.log("Hello".repeat(3)); output?
+a)	"Hello Hello Hello "
+
+``````b)	"HelloHelloHello"``````
+
+c)	"Hello"
+
+d)	"Hello3"
+28.	What will console.log("abc123".search(/[0-9]/)); return?
+a)	0
+
+``````b)	3``````
+
+c)	6
+
+d)	-1
+29.	What will console.log("   ".trim().length); output?
+a)	3
+
+`````b)	0``````
+
+c)	undefined
+
+d)	1
+30.	What will console.log("JavaScript".replace("Script", "Fun")); output?
+a)	"JavaScript"
+
+``````````b)	"JavaFun"``````````
+
+c)	"Fun"
+
+d)	"Java"
+31.	What will console.log("Hello".padStart(10, "*")); output?
+````````a)	"*****Hello"````````
+
+b)	"Hello*****"
+
+c)	"Hello"
+
+d)	"*****"
+32.	What will console.log("Hello".padEnd(10, "!")); output?
+```````a)	"Hello!!!!!"```````
+
+b)	"!!!!!Hello"
+
+c)	"Hello"
+
+d)	"Hello!!"
+33.	What will console.log("JavaScript is cool".lastIndexOf("is")); return?
+a)	10
+
+"""""b)	11"""""
+
+c)	9
+
+``````d)	12``````
+34.	What will console.log("Test123".startsWith("T", 1)); return?
+a)	true
+
+b)	false
+
+c)	"Test"
+
+d)	undefined
+35.	What will console.log("Test123".endsWith("3", 6)); return?
+``````a)	true``````
+
+"""""b)	false"""""
+
+c)	"3"
+
+d)	"Test12"
+36.	What will console.log("JavaScript".slice(4, -2)); output?
+a)	"Script"
+
+b)	"Javascr"
+
+c)	"JavaScri"
+
+d)	"Jav"
+"""""e)	“Scri”"""""
+37.	What will console.log("abcdef".split("", 3)); output?
+``````a)	["a", "b", "c"]``````
+
+b)	["abc"]
+
+c)	["a", "b", "c", "d"]
+
+d)	["a"]
+38.	What will console.log("  spaced out ".trimStart()); output?
+``````a)	"spaced out "``````
+
+b)	" spaced out "
+
+c)	"  spaced out "
+
+d)	"spaced out"
+39.	What will console.log("repeat".repeat(0)); output?
+`````a)	""`````
+
+b)	"repeat"
+
+c)	"repeatrepeat"
+
+d)	undefined
+40.	What will console.log("12345".indexOf("6")); return?
+```````a)	-1```````
+
+b)	0
+
+c)	6
+
+d)	5
+//Backticks-My answers+correct
+//Double quotes-correct
